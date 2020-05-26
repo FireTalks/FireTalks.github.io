@@ -172,21 +172,6 @@ a{
 		height: 100%;
 		margin-top: 60%;
 	}
-	#content p1{
-	font-size: 200%;
-}
-	#content p2{
-	font-size: 250%;
-}
-	#content p3{
-	font-size: 200%;
-}
-.contact p1{
-	font-size: 500%;
-}
-.contact p2{
-	font-size: 500%;
-}
 .inst{
 	margin-bottom: 10%;
 	width: 40%;
@@ -200,19 +185,54 @@ a{
 		padding-top: 3%;
 	}
 	#footer{
-		height: 5%;
-		bottom: -50%;
+		height: 3%;
+		bottom: -40%;
 	}
 	.btn{
 		font-size: 250%;
 		margin-top: 40%;
 	}
-	#content_foto{
-		margin-top: 70%;
-		height: 100%;
+}
+@media screen and (orientation:landscape) and (max-device-width: 980px) {
+   #header{
+		display: block;
 	}
-	#footer_foto{
-		height: 5%;
-		bottom: -50%;
+	#header_mb{
+		display: none;
+	}
+	.menu p1{
+		font-size: 130%;
+		border-bottom:solid 3px  #FE2E2E;
+		border-left:solid 3px  #FE2E2E;
+	}
+	.menu p3{
+		font-size: 130%;
+		border-bottom:solid 3px  #FE2E2E;
+		border-right:solid 3px  #FE2E2E;
+	}
+	#content{
+		height: 160%;
+		margin-top: 31%;
+	}
+.inst{
+	margin-bottom: 5%;
+	width: 18%;
+}
+.inst_1{
+	margin-top: 5%;
+	width: 15%;
+}
+	.menu{
+		height: 8%;
+		padding-top: 2%;
+		padding-bottom: 2%;
+	}
+	#footer{
+		height: 10%;
+		bottom: -140%;
+	}
+	.btn{
+		font-size: 150%;
+		margin-top: 35%;
 	}
 }
