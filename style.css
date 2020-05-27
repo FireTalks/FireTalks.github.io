@@ -186,7 +186,7 @@ a{
 	}
 	#footer{
 		height: 3%;
-		bottom: -40%;
+		bottom: -46%;
 	}
 	.btn{
 		font-size: 250%;
@@ -211,7 +211,7 @@ a{
 		border-right:solid 3px  #FE2E2E;
 	}
 	#content{
-		height:220%;
+		height:320%;
 		margin-top: 31%;
 	}
 .inst{
@@ -229,7 +229,7 @@ a{
 	}
 	#footer{
 		height: 10%;
-		bottom: -200%;
+		bottom: -300%;
 	}
 	.btn{
 		font-size: 150%;
